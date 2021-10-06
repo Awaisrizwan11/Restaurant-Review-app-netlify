@@ -1,0 +1,25 @@
+.card{
+    padding-top: 20px;
+}
+
+div .card2{
+    padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+    .text-white1 {
+      display: block ;
+    }
+    .text-white1.mb-3 {
+      display: block ;
+      width: 100%;
+      
+      background-position: center center;
+    }
+    .text-white2  {
+      display: block ;
+      width: 100%;
+      padding: 37px 30px;
+      padding-bottom: 45px;
+    }
+  }
