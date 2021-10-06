@@ -52,7 +52,7 @@ export default function Navbar() {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item ">
-        <NavLink exact activeClassName='active_class' to='/home' className="nav-link">Home</NavLink>
+        <NavLink exact activeClassName='active_class' to='/' className="nav-link">Home</NavLink>
       </li>
       <li className="nav-item">
         <NavLink exact activeClassName='active_class' to='/about' className="nav-link">About</NavLink>
