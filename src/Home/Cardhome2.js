@@ -11,10 +11,10 @@ export default function Cardhome2() {
     
 
       <MDBCard background='danger' className='text-white1 mb-3' >
-        <MDBCardHeader>Header</MDBCardHeader>
+        <MDBCardHeader style={{color: "white"}}>Header </MDBCardHeader>
         <MDBCardBody>
           <MDBCardTitle>Danger card title</MDBCardTitle>
-          <MDBCardText>
+          <MDBCardText style={{color: "white"}}>
             Some quick example text to build on the card title and make up the bulk of the card's content.
           </MDBCardText>
         </MDBCardBody>

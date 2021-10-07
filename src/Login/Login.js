@@ -97,7 +97,7 @@ export default function Login() {
                                         value={User.email} onChange={(e) => { updateUser('password', e.target.value) }} />
                                 </div>
                                 <MDBBtn onClick={Login_user} rounded className='mx-2' color='secondary'>
-                                    Secondary
+                                    LOGIN
                                 </MDBBtn>
 
 

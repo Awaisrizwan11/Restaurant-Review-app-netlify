@@ -16,3 +16,38 @@
     padding-bottom: 45px;
   }
 }
+.row{
+ 
+  justify-content: center;
+}
+div.Test2{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 25px;
+  background-color: #d70f64;
+  background-image: linear-gradient(
+319deg, black 25%, #0000005c 25%, #00000047 75%, black 75%, black), linear-gradient(
+319deg, black 25%, transparent 25%, #0000007a 75%, black 75%, black);
+    background-size: 100px 100px;
+    background-position: 0 0, 50px 50px;
+}
+@media (max-width: 767px){
+  div.Test2{
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: #d70f64;
+    display: block;
+    
+  }
+}
+div.bg-image{
+  
+  background-image: url('../Images/bunties.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
+}
